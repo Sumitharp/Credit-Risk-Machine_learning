@@ -1,7 +1,5 @@
 # Machine_learning
 
-
-
 ![Credit Risk](Images/credit-risk.jpg)
 
 ## Background
@@ -51,17 +49,17 @@ For each of the above, we need to:
 4. Print the `imbalanced classification report` from `imblearn.metrics`.
 
 Comments:
-Which model had the best balanced accuracy score?
+<p> 1> Which model had the best balanced accuracy score?
 
 - All the models have very high balanced accuracy score in the range of 0.98 to 0.99.
 
 - Amongst the models,Random over sampler, SMOTE, SMOTEENN have 0.995 ACCURACY SCORE.
 
-Which model had the best recall score?
+<p> 2>Which model had the best recall score?
 
 - SMOTE and SMOTEENN have the perfect score of 1.00. Which means the model is able to predict all the cases of high risk.
 
-Which model had the best geometric mean score?
+<p> 3>Which model had the best geometric mean score?
 
 - SMOTE and SMOTEENN have the geometric mean score of 1.00.
 
